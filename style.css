@@ -1,0 +1,44 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+  }
+
+  #clockContainer {
+    background-image: url('images/watch.png');
+    background-size: cover;
+    width: 500px; 
+    height: 500px;
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   
+  }
+ 
+  #digitalWatch {
+    font-size: 2.3em;
+    position: absolute;
+    top: 45%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    margin-bottom: 10px;
+    color: white; 
+  }
+  #digitalWatch.am-pm{
+    font-size: 12px;;
+  }
+
+  #date {
+    font-size: 1.6em;
+    position: absolute;
+    bottom: 180px;
+    left: 48%;
+    transform: translateX(-50%);
+    color: rgb(69, 189, 139); 
+  }
